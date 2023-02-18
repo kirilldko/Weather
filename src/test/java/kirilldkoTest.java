@@ -63,7 +63,7 @@ public class kirilldkoTest {
         WebElement h2CityContryNameHeader = driver.findElement(
                 By.xpath("//div[@id='weather-widget']//h2")
         );
-        // заносим в переменную, что бы получить текст \
+        // заносим в переменную, что бы получить текст////
 
         Thread.sleep(2000);
         String actResult = h2CityContryNameHeader.getText();
